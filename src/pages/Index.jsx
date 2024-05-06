@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Container, SimpleGrid, Box, Input, Textarea, IconButton, useToast } from '@chakra-ui/react';
-import { FaTrash, FaSave } from 'react-icons/fa';
+import { FaTrash, FaSave, FaPlus } from 'react-icons/fa';
 
 const Note = ({ note, onSave, onDelete }) => {
   const [title, setTitle] = useState(note.title);
